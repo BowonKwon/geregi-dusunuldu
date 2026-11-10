@@ -10,7 +10,7 @@
 
 GitHub에서 `index.html` 을 누르면 책 대신 코드가 보입니다. 책은 위 화면본 링크로 여십시오. 소리는 장별로 처음 누를 때 내려받습니다.
 
-제목 «Gereği düşünüldü»(필요한 바를 생각하였다)는 튀르키예 판결서에서 경과를 적은 뒤 이유로 넘어가는 자리에 놓이는 관용구입니다. 이 책 16장이 인용한 결정에는 «gereği görüşülüp düşünüldü» 꼴로 나옵니다.
+제목 «Gereği düşünüldü»(필요한 바를 생각하였다)는 튀르키예 판결서에서 경과를 적은 뒤 이유로 넘어가는 자리에 놓이는 관용구입니다. 한글로 적으면 「게레이 뒤쉬뉠뒤」에 가깝습니다. 이 책 3장이 인용한 헌법재판소 개인 청원 결정에 이 꼴로 나오고, 16장이 인용한 항소심 판결에는 «gereği görüşülüp düşünüldü» 꼴도 나옵니다.
 
 20장·353 표제어입니다. 1부 네 장은 글자와 소리, 모음조화, 동사 접미사, 문장의 뼈대입니다. 2부 열두 장은 사법 조직, 민법, 채무법, 불법행위, 물권·등기, 가족·상속, 형법 총론, 형사절차, 헌법과 개인 청원, 행정소송, 지식재산, 민사소송과 판결문입니다. 3부 네 장은 아랍 문자로 인쇄된 원전 두 편과 1926년·2001년 민법의 낱말 대조, 학회에서 한국 제도를 설명하는 말하기입니다.
 
@@ -62,7 +62,7 @@ GitHub에서 `index.html` 을 누르면 책 대신 코드가 보입니다. 책�
 
 The book is written in Korean. Clicking `index.html` on GitHub shows the code, not the book, so please use the screen edition link above. Audio is downloaded chapter by chapter the first time you press a sound button.
 
-The title «Gereği düşünüldü» ("what is required has been considered") is the set phrase that marks the turn from the procedural history to the reasons in a Turkish judgment. In the decisions quoted in chapter 16 it appears as «gereği görüşülüp düşünüldü».
+The title «Gereği düşünüldü» ("what is required has been considered") is the set phrase that marks the turn from the procedural history to the reasons in a Turkish judgment. It appears in this form in the Constitutional Court individual-application decision quoted in chapter 3; the appellate judgments quoted in chapter 16 also use the longer «gereği görüşülüp düşünüldü».
 
 The book has 20 chapters and 353 headwords. Part 1 (four chapters) covers letters and sounds, vowel harmony, verb suffixes, and sentence structure. Part 2 (twelve chapters) covers the courts, the Civil Code, the Code of Obligations, torts, property and land registration, family and succession, criminal law, criminal procedure, the Constitution and individual applications, administrative litigation, intellectual property, and civil procedure and reading judgments. Part 3 (four chapters) reads two sources printed in Arabic script, compares the vocabulary of the 1926 and 2001 Civil Codes, and practices explaining Korean institutions at a conference.
 

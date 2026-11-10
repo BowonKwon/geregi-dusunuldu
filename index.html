@@ -46,6 +46,7 @@ button { font: inherit; color: inherit }
 .mast .word { font-family: var(--f-display); font-weight: 600; font-size: var(--s4); line-height: 1; margin: 0; letter-spacing: .01em }
 .mast .sub { font-size: var(--s1); font-weight: 600; margin: 0; text-wrap: balance }
 .mast .colophon { font-size: var(--s-1); color: var(--muted); margin: 0 }
+.mast .read { font-size: var(--s-1); margin: 8px 0 0; max-width: 62ch; word-break: keep-all }
 
 .tools { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); border-bottom: 1px solid var(--line); padding-block: 10px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center }
 .tools nav { display: flex; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: thin; gap: 6px; flex: 1 1 0; min-width: 0; padding-bottom: 2px }
@@ -389,7 +390,7 @@ function tocApx() {
 function render() {
   const nav = DATA.map(c => `<a class="chip" href="#ch${c.chapter.num}" title="${esc(c.chapter.title)}">${c.chapter.num}</a>`).join('') + ((META.appendix || []).length ? `<a class="chip" href="#apx-${META.appendix[0].id}">부록</a>` : '');
   document.getElementById('app').innerHTML = `
-    <p class="hublink"><a href="https://bowonkwon.github.io/Legal-Language-Handbooks/">법률 외국어 자습서 모음</a></p><header class="mast"><p class="word">Gereği düşünüldü</p><p class="sub">조문으로 읽는 법률 튀르키예어</p><p class="colophon">권보원 (대구지방법원 부장판사) · ${esc(META.edition)}</p></header>${PRINT ? '' : tocHTML()}
+    <p class="hublink"><a href="https://bowonkwon.github.io/Legal-Language-Handbooks/">법률 외국어 자습서 모음</a></p><header class="mast"><p class="word">Gereği düşünüldü</p><p class="sub">조문으로 읽는 법률 튀르키예어</p><p class="colophon">권보원 (대구지방법원 부장판사) · ${esc(META.edition)}</p><p class="read"><b>제목 읽기.</b> <span lang="tr">Gereği düşünüldü</span> 는 한글로 적으면 「게레이 뒤쉬뉠뒤」에 가깝다. <span lang="tr">gereği</span> 의 <span lang="tr">ğ</span> 는 두 모음 사이에서 약한 「y」처럼 나고, <span lang="tr">ş</span> 는 「쉬」, <span lang="tr">ü</span> 는 입술을 둥글게 한 「이」다(1장). 낱말을 풀면 <span lang="tr">gerek-i</span>(필요한 바) + <span lang="tr">düşün-ül-dü</span>(생각되었다 — 수동·과거)이고, 직역하면 「필요한 바가 생각되었다」, 곧 「심리하여 판단한다」는 뜻이다. 튀르키예 판결서가 경과를 다 적은 뒤 판단으로 넘어가는 자리에 놓는 정형구다. 소리와 원문 인용은 3장 <span lang="tr">düşünmek</span> 항목에 있다.</p></header>${PRINT ? '' : tocHTML()}
     <div class="tools">${PRINT ? '' : '<button class="tocbtn" type="button" id="tocbtn" aria-expanded="false" aria-controls="side">차례</button>'}<nav aria-label="장">${nav}</nav><label class="tog"><input type="checkbox" id="hideko"> 한국어 가리기</label></div>
     ${DATA.map(chapterHTML).join('')}
     ${(META.appendix || []).map(appendixHTML).join('')}
