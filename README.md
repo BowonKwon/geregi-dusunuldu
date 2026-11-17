@@ -45,6 +45,10 @@ GitHub에서 `index.html` 을 누르면 책 대신 코드가 보입니다. 책�
 
 엮은이에게 권리가 있는 부분은 [CC BY-NC 4.0](LICENSE)입니다. 튀르키예 법령 문언은 튀르키예 저작권법(FSEK) 31조(공식 공포된 법령의 자유 이용)에 따라 옮겼습니다. 합성음에는 위 학습 데이터의 조건(CC BY-NC-SA 4.0)이 함께 붙습니다. 이 책은 위 기관들이 만들거나 승인한 것이 아닙니다.
 
+## 일러두기
+
+이 저장소의 자료는 엮은이가 개인적으로 공부하며 엮은 것입니다. 엮은이가 속한 기관의 견해나 업무와는 관계가 없습니다. 법률 자문이 아닙니다.
+
 ---
 
 <a id="english"></a>
@@ -86,3 +90,7 @@ Bowon Kwon (comp.), *Gereği düşünüldü: Legal Turkish through the statutes*
 ## License
 
 The parts in which the compiler holds rights are licensed under [CC BY-NC 4.0](LICENSE). Turkish statutory texts are reproduced under article 31 of the Turkish copyright act (FSEK), which allows free use of officially promulgated legislation. The synthesized audio also carries the terms of its training data (CC BY-NC-SA 4.0). This book was not made or endorsed by any of the institutions named above.
+
+## Note
+
+These are personal study materials and do not represent the views or work of any institution the compiler belongs to. Not legal advice.
